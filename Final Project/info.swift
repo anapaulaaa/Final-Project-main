@@ -17,6 +17,7 @@ struct OralCareInformationCenterView: View {
             
             VStack(alignment: .leading, spacing: 20) {
                 Text("Oral Care Information Center")
+                    .padding(.all, 33.0)
                     .font(.largeTitle)
                     .fontWeight(.bold)
                     .foregroundColor(Color(red: 15/255, green: 26/255, blue: 42/255))
@@ -28,6 +29,7 @@ struct OralCareInformationCenterView: View {
                     self.isShowingSafariView = true
                 }) {
                     Text("How to Brush Your Teeth")
+                
                         .font(.headline)
                         .foregroundColor(.blue)
                 }

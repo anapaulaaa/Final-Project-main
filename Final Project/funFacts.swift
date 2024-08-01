@@ -47,6 +47,9 @@ struct funFactsView: View {
                 .frame(maxWidth: .infinity)
                 .onAppear {
                     funFact = randomFact() // Set fun fact when the view appears
+                   
+                       
+                        
                 }
         }
         .padding()
