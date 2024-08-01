@@ -25,7 +25,7 @@ struct ContentView: View {
                 .cornerRadius(18)
             
             VStack {
-                NavigationLink(destination: homeScreen()) {
+                NavigationLink(destination: HomeScreen()) {
                                     Image("start")
                                         .resizable()
                                         .aspectRatio(contentMode: .fit)
