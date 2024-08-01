@@ -32,27 +32,32 @@ func randomFact() -> String {
 
 struct funFactsView: View {
     @State private var funFact: String = "Loading..."
-
+    
     var body: some View {
-        VStack {
-            Text("Fun Facts")
-                .font(.largeTitle)
-                .fontWeight(.bold)
-                .padding()
-            
-            Text(funFact)
-                .font(.title)
-                .padding()
-                .multilineTextAlignment(.center)
-                .frame(maxWidth: .infinity)
-                .onAppear {
-                    funFact = randomFact() // Set fun fact when the view appears
-                   
-                       
+        ZStack {
+            Color(red: 173/255, green: 202/255, blue: 221/255)
+                .ignoresSafeArea()
+            VStack {
+                Text("Fun Facts")
+                    .font(.largeTitle)
+                    .fontWeight(.bold)
+                    .padding()
+                
+                Text(funFact)
+                    .font(.title)
+                    .padding()
+                    .multilineTextAlignment(.center)
+                    .frame(maxWidth: .infinity)
+                    .onAppear {
+                        funFact = randomFact() // Set fun fact when the view appears
                         
-                }
+                        
+                        
+                    }
+                Image("lightbulb")
+            }
+            .padding()
         }
-        .padding()
     }
 }
 
