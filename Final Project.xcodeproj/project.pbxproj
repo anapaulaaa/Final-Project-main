@@ -14,11 +14,9 @@
 		5090435D2C541027004C11AA /* Final_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5090435C2C541027004C11AA /* Final_ProjectTests.swift */; };
 		509043672C541027004C11AA /* Final_ProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509043662C541027004C11AA /* Final_ProjectUITests.swift */; };
 		509043692C541027004C11AA /* Final_ProjectUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 509043682C541027004C11AA /* Final_ProjectUITestsLaunchTests.swift */; };
-		9697B6ED2C5A8C91003626FC /* signUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9697B6EC2C5A8C91003626FC /* signUp.swift */; };
-		9697B6EF2C5A8E0D003626FC /* logIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9697B6EE2C5A8E0D003626FC /* logIn.swift */; };
+		963E49D02C5BF55700431AD5 /* funFacts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 963E49CF2C5BF55700431AD5 /* funFacts.swift */; };
 		9697B6F12C5AB592003626FC /* homeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9697B6F02C5AB591003626FC /* homeScreen.swift */; };
 		9697B6F32C5AB691003626FC /* timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9697B6F22C5AB691003626FC /* timer.swift */; };
-		9697B6F52C5AB699003626FC /* progress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9697B6F42C5AB699003626FC /* progress.swift */; };
 		9697B6F72C5AB6A9003626FC /* info.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9697B6F62C5AB6A9003626FC /* info.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,11 +48,9 @@
 		509043622C541027004C11AA /* Final ProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final ProjectUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		509043662C541027004C11AA /* Final_ProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_ProjectUITests.swift; sourceTree = "<group>"; };
 		509043682C541027004C11AA /* Final_ProjectUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_ProjectUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		9697B6EC2C5A8C91003626FC /* signUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signUp.swift; sourceTree = "<group>"; };
-		9697B6EE2C5A8E0D003626FC /* logIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = logIn.swift; sourceTree = "<group>"; };
+		963E49CF2C5BF55700431AD5 /* funFacts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = funFacts.swift; sourceTree = "<group>"; };
 		9697B6F02C5AB591003626FC /* homeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeScreen.swift; sourceTree = "<group>"; };
 		9697B6F22C5AB691003626FC /* timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timer.swift; sourceTree = "<group>"; };
-		9697B6F42C5AB699003626FC /* progress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = progress.swift; sourceTree = "<group>"; };
 		9697B6F62C5AB6A9003626FC /* info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = info.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,11 +104,9 @@
 			children = (
 				5090434B2C541026004C11AA /* Final_ProjectApp.swift */,
 				5090434D2C541026004C11AA /* ContentView.swift */,
-				9697B6EC2C5A8C91003626FC /* signUp.swift */,
-				9697B6EE2C5A8E0D003626FC /* logIn.swift */,
 				9697B6F02C5AB591003626FC /* homeScreen.swift */,
+				963E49CF2C5BF55700431AD5 /* funFacts.swift */,
 				9697B6F22C5AB691003626FC /* timer.swift */,
-				9697B6F42C5AB699003626FC /* progress.swift */,
 				9697B6F62C5AB6A9003626FC /* info.swift */,
 				5090434F2C541027004C11AA /* Assets.xcassets */,
 				509043512C541027004C11AA /* Preview Content */,
@@ -278,11 +272,9 @@
 				5090434E2C541026004C11AA /* ContentView.swift in Sources */,
 				9697B6F72C5AB6A9003626FC /* info.swift in Sources */,
 				9697B6F12C5AB592003626FC /* homeScreen.swift in Sources */,
+				963E49D02C5BF55700431AD5 /* funFacts.swift in Sources */,
 				5090434C2C541026004C11AA /* Final_ProjectApp.swift in Sources */,
 				9697B6F32C5AB691003626FC /* timer.swift in Sources */,
-				9697B6F52C5AB699003626FC /* progress.swift in Sources */,
-				9697B6ED2C5A8C91003626FC /* signUp.swift in Sources */,
-				9697B6EF2C5A8E0D003626FC /* logIn.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

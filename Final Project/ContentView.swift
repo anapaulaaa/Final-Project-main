@@ -23,18 +23,20 @@ struct ContentView: View {
                 .resizable(resizingMode: .stretch)
                 .aspectRatio(contentMode: .fit)
                 .cornerRadius(18)
-            NavigationLink(destination: signUp()) {
-                
-                Text("Start")
-                    .font(.headline)
-                    .fontWeight(.semibold)
-                    .foregroundColor(Color.blue)
+            
+            VStack {
+                NavigationLink(destination: homeScreen()) {
+                                    Image("start")
+                                        .resizable()
+                                        .aspectRatio(contentMode: .fit)
+                                        .padding(.all)
+                                }
+        }
             }
         }
             }
         }
     }
-}
 
 #Preview {
     ContentView()

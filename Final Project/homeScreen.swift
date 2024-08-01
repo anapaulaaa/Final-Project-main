@@ -21,19 +21,19 @@ struct homeScreen: View {
                         .foregroundColor(Color(red: 15/255, green: 26/255, blue: 42/255))
                         .multilineTextAlignment(.center)
                 
-                    NavigationLink(destination: TimerView()) {
-                        Text("Brush Timer")
-                            .font(.headline)
-                            .fontWeight(.semibold)
-                            .foregroundColor(Color.blue)
+                    NavigationLink(destination: timer()) {
+                        Image("timer")
+                                                .resizable()
+                                                .aspectRatio(contentMode: .fit)
+                                                .padding(.horizontal)
                     }
                     .padding()
 
                     NavigationLink(destination: OralCareInformationCenterView()) {
-                        Text("Information Center")
-                            .font(.headline)
-                            .fontWeight(.semibold)
-                            .foregroundColor(Color.blue)
+                        Image("info")
+                                                .resizable()
+                                                .aspectRatio(contentMode: .fit)
+                                                .padding(.horizontal)
                     }
                     .padding()
                 }
