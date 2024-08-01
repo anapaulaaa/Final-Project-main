@@ -12,7 +12,7 @@ struct OralCareInformationCenterView: View {
     @State private var isShowingSafariView = false
     var body: some View {
         ZStack {
-            Color(red: 173/255, green: 202/255, blue: 221/255)
+            Color(red: 200/255, green: 215/255, blue: 220/255)
                 .ignoresSafeArea()
             
             VStack(alignment: .leading, spacing: 20) {
@@ -72,7 +72,7 @@ struct OralCareInformationCenterView: View {
                 Spacer()
             }
             .padding()
-            .background(Color(red: 173/255, green: 202/255, blue: 221/255))
+            .background(Color(red: 200/255, green: 215/255, blue: 220/255))
             .ignoresSafeArea()
             .sheet(isPresented: $isShowingSafariView) {
                 if let url = self.selectedURL {

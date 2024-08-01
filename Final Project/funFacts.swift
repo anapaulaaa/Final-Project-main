@@ -35,7 +35,7 @@ struct funFactsView: View {
     
     var body: some View {
         ZStack {
-            Color(red: 173/255, green: 202/255, blue: 221/255)
+            Color(red: 200/255, green: 215/255, blue: 220/255)
                 .ignoresSafeArea()
             VStack {
                 Text("Fun Facts")
@@ -44,23 +44,28 @@ struct funFactsView: View {
                     .padding()
                 
                 Text(funFact)
-                    .font(.title)
-                    .padding()
+                    .font(.title3)
+                    .padding(.bottom, (50))
                     .multilineTextAlignment(.center)
-                    .frame(maxWidth: .infinity)
+                    
+                    //.frame(maxWidth: .greatestFiniteMagnitude)
                     .onAppear {
                         funFact = randomFact() // Set fun fact when the view appears
                         
                         
                         
+                        
                     }
                 Image("lightbulb")
+                    .aspectRatio(contentMode: .fit)
+                    .frame(width: 100.0, height: 100.0)
+                    .position(x:200, y:200)
+                    
             }
-            .padding()
+            .padding(.bottom, (50))
         }
     }
 }
-
 #Preview {
     funFactsView()
 }

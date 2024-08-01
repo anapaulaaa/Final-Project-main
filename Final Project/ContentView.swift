@@ -11,7 +11,7 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             ZStack {
-                Color(red: 173/255, green: 202/255, blue: 221/255)
+                Color(red: 200/255, green: 215/255, blue: 220/255)
                     .ignoresSafeArea()
         VStack {
             Text("Welcome to")
