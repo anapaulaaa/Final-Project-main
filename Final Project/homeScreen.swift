@@ -21,7 +21,7 @@ struct homeScreen: View {
                         .foregroundColor(Color(red: 15/255, green: 26/255, blue: 42/255))
                 
                     NavigationLink(destination: timer()) {
-                        Text("Timer")
+                        Text("Brush Timer")
                             .font(.headline)
                             .fontWeight(.semibold)
                             .foregroundColor(Color.blue)
