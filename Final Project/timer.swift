@@ -19,7 +19,7 @@ struct timer: View {
                     .ignoresSafeArea()
                 VStack {
                 
-                    Text("Brush now!")
+                    Text("Brush Now!")
                         .font(.largeTitle)
                         .fontWeight(.semibold)
                         .foregroundColor(Color(red: 15/255, green: 26/255, blue: 42/255))

@@ -27,9 +27,12 @@ struct ContentView: View {
             VStack {
                 NavigationLink(destination: HomeScreen()) {
                                     Image("start")
-                                        .resizable()
+                       
+                        .resizable()
+                        
                                         .aspectRatio(contentMode: .fit)
                                         .padding(.all)
+                    
                                 }
         }
             }
