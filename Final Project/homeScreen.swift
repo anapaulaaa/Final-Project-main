@@ -19,6 +19,7 @@ struct homeScreen: View {
                         .font(.largeTitle)
                         .fontWeight(.semibold)
                         .foregroundColor(Color(red: 15/255, green: 26/255, blue: 42/255))
+                        .multilineTextAlignment(.center)
                 
                     NavigationLink(destination: timer()) {
                         Text("Brush Timer")
